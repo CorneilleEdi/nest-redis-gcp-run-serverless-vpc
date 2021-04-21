@@ -25,6 +25,7 @@
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
+    "@types/faker": "^5.5.3",
     "faker": "^5.5.3",
     "handy-redis": "^2.2.1",
     "install": "^0.13.0",
