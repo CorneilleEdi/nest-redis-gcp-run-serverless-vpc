@@ -21,6 +21,8 @@ gcloud compute firewall-rules create allow-redis --network default --allow tcp:6
 ## Create Compute Engine
 
 ```bash
+gcloud compute instances create redis-storm-db \                      
+--machine-type=n1-highcpu-2 \
 --image=ubuntu-2004-focal-v20210415 --image-project=ubuntu-os-cloud \
 --tags=allow-redis \
 --zone=europe-west1-b \
